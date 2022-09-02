@@ -212,3 +212,18 @@ history -a
 ls --color=auto
 echo $PWD >> ~/project/freeCodeCamp/test/.cwd
 history -a
+rm styles.cc
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+rm index.htm
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+index.js
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+touch index.js
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
