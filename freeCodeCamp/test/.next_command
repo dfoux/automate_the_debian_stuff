@@ -457,3 +457,9 @@ history -a
 mv index.js client/src/
 echo $PWD >> ~/project/freeCodeCamp/test/.cwd
 history -a
+,v styles.css client/src/
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+mv styles.css client/src/
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
