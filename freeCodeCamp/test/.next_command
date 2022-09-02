@@ -250,3 +250,9 @@ history -a
 touch background.jpg
 echo $PWD >> ~/project/freeCodeCamp/test/.cwd
 history -a
+touch header.pn
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+touch header.png
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
