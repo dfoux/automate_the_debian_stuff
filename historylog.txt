@@ -1,0 +1,234 @@
+    1  echo hello terminal
+    2  pwd
+    3  ls
+    4  cd freeCodeCamp/
+    5  pwd
+    6  ls
+    7  cd test
+    8  pwd
+    9  ls
+   10  cd ..
+   11  ls
+   12  more package.json
+   13  more package.json
+   14  clear
+   15  ls
+   16  cd node_modules/
+   17  ls
+   18  ls
+   19  ls -l
+   20  cd has
+   21  ls
+   22  more README.md 
+   23  clear
+   24  ls
+   25  more LICENSE-MIT 
+   26  cçear
+   27  clear
+   28  list
+   29  ls
+   30  clear
+   31  ls
+   32  cd src/
+   33  pwd
+   34  ls
+   35  more index.js 
+   36  cd ..
+   37  cd ..
+   38  cd ../..
+   39  ls
+   40  clear
+   41  mkdir website
+   42  ls
+   43  cd website/
+   44  ls
+   45  echo hello website
+   46  touch index.htm
+   47  touch index.html
+   48  touch styles.cc
+   49  touch styles.css
+   50  ls
+   51  rm styles.cc
+   52  rm index.htm
+   53  ls
+   54  index.js
+   55  touch index.js
+   56  touch .gitignore
+   57  ls
+   58  ls --help
+   59  ls -a
+   60  cd .
+   61  ls
+   62  touch background.jpg
+   63  touch header.pn
+   64  touch header.png
+   65  rm header.pn
+   66  touch footer.jpeg
+   67  ls
+   68  touch roboto.font
+   69  touch lato.font
+   70  touch menlo.font
+   71  ls
+   72  touch CodeAlly.svg
+   73  touch CodeRoad.svg
+   74  touch freeCodeCamp.svg
+   75  ls
+   76  mkdir images
+   77  ls
+   78  cp background.jpg images/
+   79  cd images/
+   80  ls
+   81  ls
+   82  cd ..
+   83  ls
+   84  rm background.jpg
+   85  ls
+   86  cp header.png images/
+   87  cp footer.jpeg images/
+   88  cd images/
+   89  ls
+   90  cd ..
+   91  ls
+   92  rm header.png 
+   93  rm footer.jpeg 
+   94  ls 
+   95  mv roboto.font roboto.woff
+   96  ls
+   97  mv lato.font lato.ttf
+   98  mv menlo.font menlo.otf
+   99  ls
+  100  mkdir fonts
+  101  ls
+  102  mv roboto.woff images/
+  103  ls
+  104  cd images/
+  105  ls
+  106  mv roboto.woff ..
+  107  cd ..
+  108  ls
+  109  mv roboto.woff images/roboto.woff
+  110  ls
+  111  cd fonts/
+  112  ls
+  113  cd ..
+  114  cd images/
+  115  ls
+  116  mv roboto.woff ..
+  117  ls
+  118  cd ..
+  119  ls
+  120  mv roboto.woff fonts/
+  121  find .
+  122  mv lato.ttf fonts/
+  123  mv menlo.otf fonts/
+  124  find .
+  125  mkdir client
+  126  mkdir client/src
+  127  mv index.html client/src/
+  128  find .
+  129  mv index.js client/src/
+  130  ,v styles.css client/src/
+  131  mv styles.css client/src/
+  132  find .
+  133  find client/
+  134  find --help
+  135  find -name index.html
+  136  find -name styles.css
+  137  find -name src
+  138  find .
+  139  cd client/
+  140  mkdir assets
+  141  cd assets/
+  142  mkdir image
+  143  mkdir images
+  144  rmdir image
+  145  cd images/
+  146  touch background.jpg
+  147  cd ../../..
+  148  cd images/
+  149  ls
+  150  mv header.png ..
+  151  ls
+  152  cd ..
+  153  ls
+  154  find .
+  155  find images/
+  156  find -name images/
+  157  find --name images/
+  158  find -name images/footer.jpeg 
+  159  find -name images/
+  160  find -name images
+  161  mv header.png ./client/assets/images/
+  162  find -name header.png
+  163  find -name footer.jpeg
+  164  mv ./images/footer.jpeg ./client/assets/images/
+  165  find .
+  166  rmdir images/
+  167  ls
+  168  cd ..
+  169  ls
+  170  cd website/
+  171  ls
+  172  find images/
+  173  rm ./images/background.jpg
+  174  rmdimr images/
+  175  rmdir 
+  176  rmdir images/
+  177  clear
+  178  ls
+  179  mkdir ./client/assets/icons
+  180  find .
+  181  mv CodeAlly.svg client/assets/icons/
+  182  find .
+  183  mv CodeRoad.svg client/assets/icons/
+  184  mv freeCodeCamp.svg client/assets/icons/
+  185  find .
+  186  mkdir client/assets/fonts
+  187  touch ./client/assets/fonts/roboto-bold.woff
+  188  touch ./client/assets/fonts/roboto-bod.woff
+  189  touch ./client/assets/fonts/roboto-light.woff
+  190  find ./client/assets/fonts/
+  191  rm ./client/assets/fonts/roboto-bod.woff
+  192  touch ./client/assets/fonts/lato-bold.ttf
+  193  touch ./client/assets/fonts/lato-light.ttf
+  194  find .
+  195  rm -rf fonts/
+  196  ls
+  197  rm --help
+  198  rm -rf fonts/
+  199  ls
+  200  rm -rf ./fonts/
+  201  ls
+  202  mkdir fonts
+  203  rm -r fonts/
+  204  ls
+  205  touch packages.json
+  206  touch package.json
+  207  touch server.js
+  208  touch README.md
+  209  ls
+  210  echo Yay!
+  211  echo I finished the boilerplate!
+  212  echo onemorething...
+  213  echo one more thing...
+  214  echo I made this boilerplate >> README.md
+  215  more README.md 
+  216  echo from the command line >> README.md
+  217  more README.md 
+  218  for the freeCodeCamp bash lessons >> README.md
+  219  echo for the freeCodeCamp bash lessons >> README.md
+  220  for the freeCodeCamp bash lessons >> README.md
+  221  more README.md 
+  222  cd ..
+  223  ls
+  224  mv website/ website-boilerplate
+  225  ls
+  226  cp --help
+  227  ls
+  228  clear
+  229  cp -r website-boilerplate/ toms-website
+  230  ls .
+  231  find toms-website/
+  232  find website-boilerplate/
+  233  history
+  234  history >> historylog.txt

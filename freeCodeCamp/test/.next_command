@@ -779,3 +779,25 @@ echo goodbye terminal
 echo $PWD >> ~/project/freeCodeCamp/test/.cwd
 history -a
 exit
+history
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+history >> historylog.txt
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+cat historylog.txt
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+less historylog.txt
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+git --version
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+git init
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+git add .
