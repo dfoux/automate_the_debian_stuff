@@ -635,3 +635,9 @@ history -a
 touch ./client/assets/fonts/roboto-bold.woff
 echo $PWD >> ~/project/freeCodeCamp/test/.cwd
 history -a
+touch ./client/assets/fonts/roboto-bod.woff
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+touch ./client/assets/fonts/roboto-light.woff
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
