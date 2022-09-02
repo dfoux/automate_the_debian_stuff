@@ -570,3 +570,24 @@ history -a
 rmdir images/
 echo $PWD >> ~/project/freeCodeCamp/test/.cwd
 history -a
+ls --color=auto
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+cd ..
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+cd website/
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+find images/
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
+rm ./images/background.jpg
+echo $PWD >> ~/project/freeCodeCamp/test/.cwd
+history -a
