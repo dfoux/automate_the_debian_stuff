@@ -25,13 +25,13 @@ echo
 
 echo -e "sudo apt-get upgrade"
 echo -e "4: ${VERDE}atualiza todas as 'aplicações'(todos os pacotes)${SEMCOR}"
-sudo apt-get upgrade
+sudo apt-get upgrade -y
 
 echo
 
 echo -e "sudo apt-get dist-upgrade"
 echo -e "5: ${VERDE}atualização dos pacotes da distribuição Linux${SEMCOR}"
-sudo apt-get dist-upgrade
+sudo apt-get dist-upgrade -y
 
 echo
 
